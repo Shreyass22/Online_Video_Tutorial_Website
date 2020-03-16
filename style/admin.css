@@ -1,0 +1,58 @@
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden; 
+}
+
+#adminB{
+	background-color: #2f4e71;
+}
+
+#css{
+	background-color: #243c58;
+	border-radius: 10px; 
+	padding: 0 5px 0 5px;
+	color: white;
+}
+#css:hover{
+	background:#f5d76e;
+}
+
+#refresh{
+	border-radius: 5px;
+}
+#refresh:hover{
+	background:#2f4e71;
+	color: white;
+}
+
+#tablecss{
+	border:1;
+	-webkit-box-shadow: 7px 13px 35px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 13px 35px -7px rgba(0,0,0,0.75);
+	box-shadow: 7px 13px 35px -7px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+
+#table1css{
+	border:1;
+	-webkit-box-shadow: 7px 13px 35px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 13px 35px -7px rgba(0,0,0,0.75);
+	box-shadow: 7px 13px 35px -7px rgba(0,0,0,0.75);
+	border-radius: 10px;
+}
+
+
+#reply{
+	color: red;
+	cursor: pointer;
+}
+#reply:hover{
+	color: black;
+	border-bottom-style: solid;
+	border-bottom-color:#f5d76e;
+	border-bottom-width: 4px;
+}

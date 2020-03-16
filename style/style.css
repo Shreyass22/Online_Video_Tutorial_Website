@@ -1,0 +1,219 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	
+}
+
+body{
+	margin-top: 150px;
+	font-family: 'Lato', 'sans-serif';
+	font-weight: 100;
+	font-size: 20px;	
+}
+
+.pointer{cursor: pointer;}
+.dropdown ul li a{display: block; background-color: black;}
+
+.hero-text-box{
+	position: absolute;
+	width: 1000px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.btn:link,
+.btn:visited {
+	flex: 1 1 auto;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	color: white;
+	/* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	background-size: 200% auto;
+}
+.btn:hover,
+.btn:active {
+	background-position: right center; /* change the direction of the change here */
+}
+.btn1:link,
+.btn1:hover {
+	top: 50%;
+	left: 50%;
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	background-color: #f5d020;
+	background-image: linear-gradient(315deg, #f5d020 0%, #f53803 100%);
+	/*background-image: linear-gradient(to right,#1a2a6c,#b21f1f,#fdbb2d);*/
+	text-decoration: none;
+	border-radius: 200px;
+	/*color: #fff;*/
+}
+.btn2:link
+{
+	margin: 50px;
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	border-radius: 200px;
+}
+
+.stat{
+	background: #30336B;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+	margin-top: 100px;
+}
+.stat i{
+	font-size: 45px;
+}
+.stat-items h2{
+	font-weight: bolder;
+	font-size: 32px;
+	color: #f5d76e;
+}
+.stat p{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.imageBox{
+	background-color: #00aeda;
+	width: 98px;
+	height: 98px;
+	overflow: hidden;
+	display: inline-block;
+	margin-left: 6px;
+	margin-right: 6px;
+	vertical-align: top;
+	margin-bottom: 13px;
+	opacity: 1;
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 748px){
+	.division1 h1{
+		font-size: 20px;
+	} 
+	.division1 h2{
+		font-size: 20px;
+	} 
+	#buttonh1{
+		width: 100%;
+		min-width: 50px;  
+		max-width: 300px;
+	}
+	#buttonh2{
+		width: 100%;
+		min-width: 50px;  
+		max-width: 300px;
+	}
+}
+@media screen and (min-width: 626px) and (max-width: 680px){
+	.division1 h1{
+		font-size: 20px;
+	} 
+	.division1 h2{
+		font-size: 20px;
+	} 
+	.division1 a{
+		font-size: 2vw;
+	}
+	#buttonh1{
+		width: 100%;
+		min-width: 20px;  
+		max-width: 200px;
+	}
+	#buttonh2{
+		width: 100%;
+		min-width: 20px;  
+		max-width: 200px;
+	}
+}
+
+  #adminB {
+    font-size: 2vw;
+  }
+  
+  @media screen and (min-width: 480px){
+  
+    .adminT th{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .adminT td{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+@media screen and (min-width: 331px) and (max-width: 479px){
+
+.adminT {
+  font-size: 3vw;
+}
+.adminT th{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .adminT td{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+@media screen and (max-width: 330px){
+.adminT {
+  font-size: 2.5vw;
+}
+.adminT th{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .adminT td{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+}
+
+@media screen and (min-width: 382px) and (max-width: 625px){
+	.division1 h1{
+		font-size: 20px;
+	} 
+	.division1 h2{
+		font-size: 20px;
+	} 
+	.division1 a{
+		font-size: 1vw;
+	}
+	#buttonh1{
+		width: 100%;
+		min-width: 10px;  
+		max-width: 100px;
+	}
+	#buttonh2{
+		display: none;
+	}
+}
+@media screen and (max-width: 381px){
+	.division1 h1{
+		font-size: 10px;
+	} 
+	.division1 h2{
+		font-size: 10px;    
+	} 
+	#buttonh2{
+		display: none;
+	}
+	#buttonh1{
+		display: none;
+	}
+}
